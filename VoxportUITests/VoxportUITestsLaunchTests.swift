@@ -1,13 +1,13 @@
 //
-//  NotchMicVolumeUITestsLaunchTests.swift
-//  NotchMicVolumeUITests
+//  VoxportUITestsLaunchTests.swift
+//  VoxportUITests
 //
 //  Created by Bastian Wölfle on 19.08.25.
 //
 
 import XCTest
 
-final class NotchMicVolumeUITestsLaunchTests: XCTestCase {
+final class VoxportUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

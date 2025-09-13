@@ -1,4 +1,4 @@
-# NotchMicVolume
+# Voxport
 
 A minimal macOS menu bar utility to adjust the **microphone (input) volume** with a sleek HUD that drops from the top center (over the notch area). It’s fast, scriptable, and stays out of your way.
 
@@ -27,7 +27,7 @@ _Add a screenshot or short GIF here._
 ## Build & Run
 
 1. Open the project in Xcode.
-2. Select the **NotchMicVolume** scheme.
+2. Select the **Voxport** scheme.
 3. Build & run.
 
 The app adds a **mic** icon to the menu bar. Left-click shows the HUD; right-click opens a menu with **Quit**.
@@ -47,11 +47,11 @@ The app adds a **mic** icon to the menu bar. Left-click shows the HUD; right-cli
 
 ```bash
 # Set input volume to an absolute percentage (0–100)
-open -a NotchMicVolume --args --set-input-volume 37
+open -a Voxport --args --set-input-volume 37
 
 # Change input volume relatively by delta in percent (±)
-open -a NotchMicVolume --args --change-input-volume +5
-open -a NotchMicVolume --args --change-input-volume -10
+open -a Voxport --args --change-input-volume +5
+open -a Voxport --args --change-input-volume -10
 ```
 
 ### Scriptable control (no second instance)
@@ -65,7 +65,7 @@ osascript -l JavaScript <<'JXA'
 ObjC.import('Foundation')
 $.NSDistributedNotificationCenter.defaultCenter
  .postNotificationNameObjectUserInfoDeliverImmediately(
-    'NotchMicVolume.SetInputVolumePercent',
+    'Voxport.SetInputVolumePercent',
     null,
     {percent: 37},
     true
@@ -80,7 +80,7 @@ osascript -l JavaScript <<'JXA'
 ObjC.import('Foundation')
 $.NSDistributedNotificationCenter.defaultCenter
  .postNotificationNameObjectUserInfoDeliverImmediately(
-    'NotchMicVolume.ChangeInputVolumeBy',
+    'Voxport.ChangeInputVolumeBy',
     null,
     {delta: -5},
     true

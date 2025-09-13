@@ -12,35 +12,35 @@
 			containerPortal = 033AB73C2E547CED00C3FDC0 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 033AB7432E547CED00C3FDC0;
-			remoteInfo = NotchMicVolume;
+			remoteInfo = Voxport;
 		};
 		033AB75D2E547CEF00C3FDC0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 033AB73C2E547CED00C3FDC0 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 033AB7432E547CED00C3FDC0;
-			remoteInfo = NotchMicVolume;
+			remoteInfo = Voxport;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		033AB7442E547CED00C3FDC0 /* NotchMicVolume.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotchMicVolume.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		033AB7522E547CEF00C3FDC0 /* NotchMicVolumeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotchMicVolumeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		033AB75C2E547CEF00C3FDC0 /* NotchMicVolumeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotchMicVolumeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		033AB7442E547CED00C3FDC0 /* Voxport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Voxport.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		033AB7522E547CEF00C3FDC0 /* VoxportTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoxportTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		033AB75C2E547CEF00C3FDC0 /* VoxportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoxportUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		033AB7462E547CED00C3FDC0 /* NotchMicVolume */ = {
+		033AB7462E547CED00C3FDC0 /* Voxport */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = NotchMicVolume;
+			path = Voxport;
 			sourceTree = "<group>";
 		};
-		033AB7552E547CEF00C3FDC0 /* NotchMicVolumeTests */ = {
+		033AB7552E547CEF00C3FDC0 /* VoxportTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = NotchMicVolumeTests;
 			sourceTree = "<group>";
 		};
-		033AB75F2E547CEF00C3FDC0 /* NotchMicVolumeUITests */ = {
+		033AB75F2E547CEF00C3FDC0 /* VoxportUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = NotchMicVolumeUITests;
 			sourceTree = "<group>";
@@ -75,9 +75,9 @@
 		033AB73B2E547CED00C3FDC0 = {
 			isa = PBXGroup;
 			children = (
-				033AB7462E547CED00C3FDC0 /* NotchMicVolume */,
-				033AB7552E547CEF00C3FDC0 /* NotchMicVolumeTests */,
-				033AB75F2E547CEF00C3FDC0 /* NotchMicVolumeUITests */,
+				033AB7462E547CED00C3FDC0 /* Voxport */,
+				033AB7552E547CEF00C3FDC0 /* VoxportTests */,
+				033AB75F2E547CEF00C3FDC0 /* VoxportUITests */,
 				033AB7452E547CED00C3FDC0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +85,9 @@
 		033AB7452E547CED00C3FDC0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				033AB7442E547CED00C3FDC0 /* NotchMicVolume.app */,
-				033AB7522E547CEF00C3FDC0 /* NotchMicVolumeTests.xctest */,
-				033AB75C2E547CEF00C3FDC0 /* NotchMicVolumeUITests.xctest */,
+				033AB7442E547CED00C3FDC0 /* Voxport.app */,
+				033AB7522E547CEF00C3FDC0 /* VoxportTests.xctest */,
+				033AB75C2E547CEF00C3FDC0 /* VoxportUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		033AB7432E547CED00C3FDC0 /* NotchMicVolume */ = {
+		033AB7432E547CED00C3FDC0 /* Voxport */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 033AB7662E547CEF00C3FDC0 /* Build configuration list for PBXNativeTarget "NotchMicVolume" */;
+			buildConfigurationList = 033AB7662E547CEF00C3FDC0 /* Build configuration list for PBXNativeTarget "Voxport" */;
 			buildPhases = (
 				033AB7402E547CED00C3FDC0 /* Sources */,
 				033AB7412E547CED00C3FDC0 /* Frameworks */,
@@ -108,18 +108,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				033AB7462E547CED00C3FDC0 /* NotchMicVolume */,
+				033AB7462E547CED00C3FDC0 /* Voxport */,
 			);
-			name = NotchMicVolume;
+			name = Voxport;
 			packageProductDependencies = (
 			);
-			productName = NotchMicVolume;
+			productName = Voxport;
 			productReference = 033AB7442E547CED00C3FDC0 /* NotchMicVolume.app */;
 			productType = "com.apple.product-type.application";
 		};
-		033AB7512E547CEF00C3FDC0 /* NotchMicVolumeTests */ = {
+		033AB7512E547CEF00C3FDC0 /* VoxportTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 033AB7692E547CEF00C3FDC0 /* Build configuration list for PBXNativeTarget "NotchMicVolumeTests" */;
+			buildConfigurationList = 033AB7692E547CEF00C3FDC0 /* Build configuration list for PBXNativeTarget "VoxportTests" */;
 			buildPhases = (
 				033AB74E2E547CEF00C3FDC0 /* Sources */,
 				033AB74F2E547CEF00C3FDC0 /* Frameworks */,
@@ -131,18 +131,18 @@
 				033AB7542E547CEF00C3FDC0 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				033AB7552E547CEF00C3FDC0 /* NotchMicVolumeTests */,
+				033AB7552E547CEF00C3FDC0 /* VoxportTests */,
 			);
-			name = NotchMicVolumeTests;
+			name = VoxportTests;
 			packageProductDependencies = (
 			);
-			productName = NotchMicVolumeTests;
+			productName = VoxportTests;
 			productReference = 033AB7522E547CEF00C3FDC0 /* NotchMicVolumeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		033AB75B2E547CEF00C3FDC0 /* NotchMicVolumeUITests */ = {
+		033AB75B2E547CEF00C3FDC0 /* VoxportUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 033AB76C2E547CEF00C3FDC0 /* Build configuration list for PBXNativeTarget "NotchMicVolumeUITests" */;
+			buildConfigurationList = 033AB76C2E547CEF00C3FDC0 /* Build configuration list for PBXNativeTarget "VoxportUITests" */;
 			buildPhases = (
 				033AB7582E547CEF00C3FDC0 /* Sources */,
 				033AB7592E547CEF00C3FDC0 /* Frameworks */,
@@ -154,12 +154,12 @@
 				033AB75E2E547CEF00C3FDC0 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				033AB75F2E547CEF00C3FDC0 /* NotchMicVolumeUITests */,
+				033AB75F2E547CEF00C3FDC0 /* VoxportUITests */,
 			);
-			name = NotchMicVolumeUITests;
+			name = VoxportUITests;
 			packageProductDependencies = (
 			);
-			productName = NotchMicVolumeUITests;
+			productName = VoxportUITests;
 			productReference = 033AB75C2E547CEF00C3FDC0 /* NotchMicVolumeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 033AB73F2E547CED00C3FDC0 /* Build configuration list for PBXProject "NotchMicVolume" */;
+			buildConfigurationList = 033AB73F2E547CED00C3FDC0 /* Build configuration list for PBXProject "Voxport" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				033AB7432E547CED00C3FDC0 /* NotchMicVolume */,
-				033AB7512E547CEF00C3FDC0 /* NotchMicVolumeTests */,
-				033AB75B2E547CEF00C3FDC0 /* NotchMicVolumeUITests */,
+				033AB7432E547CED00C3FDC0 /* Voxport */,
+				033AB7512E547CEF00C3FDC0 /* VoxportTests */,
+				033AB75B2E547CEF00C3FDC0 /* VoxportUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		033AB7542E547CEF00C3FDC0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 033AB7432E547CED00C3FDC0 /* NotchMicVolume */;
+			target = 033AB7432E547CED00C3FDC0 /* Voxport */;
 			targetProxy = 033AB7532E547CEF00C3FDC0 /* PBXContainerItemProxy */;
 		};
 		033AB75E2E547CEF00C3FDC0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 033AB7432E547CED00C3FDC0 /* NotchMicVolume */;
+			target = 033AB7432E547CED00C3FDC0 /* Voxport */;
 			targetProxy = 033AB75D2E547CEF00C3FDC0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -392,7 +392,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = NotchMicVolume/NotchMicVolume.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Voxport/Voxport.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -405,7 +405,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.schlingel.NotchMicVolume;
+				PRODUCT_BUNDLE_IDENTIFIER = io.schlingel.Voxport;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -418,7 +418,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = NotchMicVolume/NotchMicVolume.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Voxport/Voxport.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -431,7 +431,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.schlingel.NotchMicVolume;
+				PRODUCT_BUNDLE_IDENTIFIER = io.schlingel.Voxport;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -452,7 +452,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NotchMicVolume.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NotchMicVolume";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Voxport.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Voxport";
 			};
 			name = Debug;
 		};
@@ -465,11 +465,11 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.schlingel.NotchMicVolumeTests;
+				PRODUCT_BUNDLE_IDENTIFIER = io.schlingel.VoxportTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NotchMicVolume.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NotchMicVolume";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Voxport.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Voxport";
 			};
 			name = Release;
 		};
@@ -480,11 +480,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.schlingel.NotchMicVolumeUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = io.schlingel.VoxportUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = NotchMicVolume;
+				TEST_TARGET_NAME = Voxport;
 			};
 			name = Debug;
 		};
@@ -495,11 +495,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.schlingel.NotchMicVolumeUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = io.schlingel.VoxportUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = NotchMicVolume;
+				TEST_TARGET_NAME = Voxport;
 			};
 			name = Release;
 		};
@@ -515,7 +515,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		033AB7662E547CEF00C3FDC0 /* Build configuration list for PBXNativeTarget "NotchMicVolume" */ = {
+		033AB7662E547CEF00C3FDC0 /* Build configuration list for PBXNativeTarget "Voxport" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				033AB7672E547CEF00C3FDC0 /* Debug */,
@@ -524,7 +524,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		033AB7692E547CEF00C3FDC0 /* Build configuration list for PBXNativeTarget "NotchMicVolumeTests" */ = {
+		033AB7692E547CEF00C3FDC0 /* Build configuration list for PBXNativeTarget "VoxportTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				033AB76A2E547CEF00C3FDC0 /* Debug */,
@@ -533,7 +533,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		033AB76C2E547CEF00C3FDC0 /* Build configuration list for PBXNativeTarget "NotchMicVolumeUITests" */ = {
+		033AB76C2E547CEF00C3FDC0 /* Build configuration list for PBXNativeTarget "VoxportUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				033AB76D2E547CEF00C3FDC0 /* Debug */,
